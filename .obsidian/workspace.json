@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Main git commands.md",
+                "file": "Tools/Docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Main git commands"
+              "title": "Docker"
             }
           }
         ]
@@ -175,6 +175,7 @@
   },
   "active": "ce33d7e1b0240e37",
   "lastOpenFiles": [
+    "Tools/Main git commands.md",
     "q",
     "ZObsidianTools/Models/Template new tech cheat sheet.md",
     "Tools",
@@ -193,9 +194,7 @@
     "Languages/Python",
     "Languages/CLI.md",
     "Languages/Angular",
-    "Languages",
-    "Tools/Docker/New Docker Container.md",
-    "Tools/Main git commands.md",
+    "Tools/Docker.md",
     "Welcome.md"
   ]
 }

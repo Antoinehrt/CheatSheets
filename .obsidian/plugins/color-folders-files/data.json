@@ -1,0 +1,40 @@
+{
+  "styles": {
+    "Languages": {
+      "backgroundColor": "#c96868",
+      "textColor": "#ffffff",
+      "isBold": false,
+      "isItalic": false,
+      "applyToSubfolders": true,
+      "applyToFiles": false
+    },
+    "OS": {
+      "backgroundColor": "#fadfa1",
+      "textColor": "#ffffff",
+      "isBold": false,
+      "applyToSubfolders": true,
+      "applyToFiles": false
+    },
+    "Tools": {
+      "backgroundColor": "#fff4ea",
+      "isBold": false,
+      "applyToSubfolders": true,
+      "applyToFiles": false
+    },
+    "ZObsidianTools": {
+      "backgroundColor": "#7eacb5",
+      "isBold": false,
+      "applyToSubfolders": true,
+      "applyToFiles": false
+    }
+  },
+  "presets": {
+    "Blue": {
+      "backgroundColor": "#7eacb5",
+      "isBold": false,
+      "applyToSubfolders": true,
+      "applyToFiles": true
+    }
+  },
+  "presetOrder": []
+}
