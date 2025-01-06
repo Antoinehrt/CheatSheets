@@ -2,5 +2,6 @@
   "showLineNumber": true,
   "trashOption": "local",
   "newFileLocation": "current",
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "vimMode": true
 }

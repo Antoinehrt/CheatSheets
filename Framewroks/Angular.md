@@ -1,4 +1,5 @@
-# 1. Creating the Project
+# New Angular Project
+##  1. Creating the Project
 
 To create the project, use this command: 
 ```bash
@@ -10,7 +11,7 @@ If you want to add material to the project, use this command:
 ng add @angular/material
 ```
 
-# 2. Creation of the Git repository
+# 2. Creation of the [[GIT]] repository
 
 Don't forget to create or adapt if it's already created the .gitignore.
 

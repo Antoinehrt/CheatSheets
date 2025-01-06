@@ -1,3 +1,4 @@
+# Main git commands
 ## SETUP
 ### Configuring user information used across all local repositories
 
@@ -163,8 +164,8 @@ git mv <existingPath> <newPath>
 git log --stat -M
 ```
 
-## IGNORING PATTERNS
-### Preventing unintentional staging or commiting of files
+## .gitignore
+### Preventing unintentional staging or comiting of files
 
 1. Save a file with desired patterns as .gitignore with either direct string
 matches or wildcard globs.

@@ -10,7 +10,7 @@
     },
     "OS": {
       "backgroundColor": "#fadfa1",
-      "textColor": "#ffffff",
+      "textColor": "#000000",
       "isBold": false,
       "applyToSubfolders": true,
       "applyToFiles": false
@@ -19,13 +19,19 @@
       "backgroundColor": "#fff4ea",
       "isBold": false,
       "applyToSubfolders": true,
-      "applyToFiles": false
+      "applyToFiles": false,
+      "textColor": "#000000"
     },
     "ZObsidianTools": {
       "backgroundColor": "#7eacb5",
       "isBold": false,
       "applyToSubfolders": true,
-      "applyToFiles": false
+      "applyToFiles": false,
+      "textColor": "#ffffff"
+    },
+    "Framewroks": {
+      "backgroundColor": "#7db587",
+      "textColor": "#ffffff"
     }
   },
   "presets": {
@@ -34,7 +40,14 @@
       "isBold": false,
       "applyToSubfolders": true,
       "applyToFiles": true
+    },
+    "Orange": {
+      "backgroundColor": "#e5902e",
+      "applyToSubfolders": true
     }
   },
-  "presetOrder": []
+  "presetOrder": [
+    "Blue",
+    "Orange"
+  ]
 }
