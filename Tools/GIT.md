@@ -146,6 +146,37 @@ git diff branchB...branchA
 git show <SHA>
 ```
 
+### git adog
+
+`git adog` is a useful custom alias for visualizing your repository's commit history in a clear and concise way. It combines several Git log options to provide a compact, one-line-per-
+commit view with branch decorations and a graphical representation of the commit tree.
+
+1. What does `git adog` do?
+
+When you run `git adog`, it executes the following command:
+
+```bash
+git log --all --decorate --oneline --graph
+```
+
+This command includes:
+
+- `--all`: Displays commits from all branches.
+- `--decorate`: Shows references (e.g., branches, tags) associated with each commit.
+- `--oneline`: Reduces each commit to a single line for a more compact view.
+- `--graph`: Adds a graphical representation of the commit tree structure.
+
+This makes it easier to track branching, merging, and the overall repository history at a glance.
+
+2. How to create the alias for `git adog`?
+
+To set up the `git adog` alias, use the following command:
+```bash
+git config --global alias.adog 'log --all --decorate --oneline --graph'
+```
+
+Once this alias is set, you can simply type `git adog` to visualize your repository's history.
+
 ## TRACKING PATH CHANGES
 ### Versioning file removes and path changes
 
