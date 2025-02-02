@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/GIT.md",
+                "file": "Tools/CMD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GIT"
+              "title": "CMD"
             }
           }
         ]
@@ -177,6 +177,7 @@
   "active": "cc25ed630fc44942",
   "lastOpenFiles": [
     "Tools/GIT.md",
+    "Tools/CMD.md",
     "Tools/Docker.md",
     "Framewroks/Spring Boot.md",
     "Languages/CLI.md",
