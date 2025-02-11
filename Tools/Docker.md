@@ -43,9 +43,10 @@ docker rm <container_name>
 ### Docker Compose Commands
 - Start all services defined in `docker-compose.yml`
 ```shell
-docker-compose up -d
+docker-compose up
 ```
 `-d` option stands for detach. It will run services in the background.
+`--build` option force the rebuild of the images.
 
 - Launch a specific service:
 ```bash
