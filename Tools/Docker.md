@@ -10,10 +10,18 @@
 - Build a new image from a DockerFile:
 
 ```bash
-docker build -t <image_name> .
+docker build -t "<image_name>" .
 ```
 
 Replace `<image_name>` with the desired image name.
+
+- Run an image from a DockerFile:
+
+```bash
+docker run "<image_name>"
+```
+
+You can add the `--detach` argument to run the image detached from the terminal
 
 - List all Docker images:
 ```bash
