@@ -268,4 +268,3 @@ git stash pop
 ```bash
 git stash drop
 ```
-
