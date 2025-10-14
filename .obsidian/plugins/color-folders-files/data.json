@@ -32,6 +32,9 @@
     "Framewroks": {
       "backgroundColor": "#7db587",
       "textColor": "#ffffff"
+    },
+    "DB": {
+      "backgroundColor": "#34495e"
     }
   },
   "presets": {
