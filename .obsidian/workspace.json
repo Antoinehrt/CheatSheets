@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/GIT.md",
+                "file": "Languages/CSharp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GIT"
+              "title": "CSharp"
             }
           }
         ]
@@ -160,13 +160,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/GIT.md",
+                "file": "README.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of GIT"
+              "title": "Outline of README"
             }
           }
         ],
@@ -184,7 +184,6 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": true,
       "daily-notes:Open today's daily note": true,
       "obsidian-excalidraw-plugin:New drawing": false,
       "omnisearch:Omnisearch": false
@@ -194,9 +193,9 @@
   "lastOpenFiles": [
     "README.md",
     "Tools/GIT.md",
-    "Home Page.md",
     "OS/Linux/Create a Linux Virtual Box.md",
     "Tools/Docker.md",
+    "Home Page.md",
     "Framewroks/Spring Boot.md",
     "ZObsidianTools/Img/Linux/Virtual Box/2024-12-03_screenshot_guest_addtion.png",
     "Languages/CSharp.md",
