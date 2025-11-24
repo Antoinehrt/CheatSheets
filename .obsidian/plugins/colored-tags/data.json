@@ -1,0 +1,42 @@
+{
+  "palette": {
+    "seed": 0,
+    "selected": "adaptive-soft",
+    "custom": "e12729-f37324-f8cc1b-72b043-007f4e"
+  },
+  "mixColors": true,
+  "transition": true,
+  "accessibility": {
+    "highTextContrast": false
+  },
+  "knownTags": {
+    "Java": 1,
+    "Backend": 2,
+    "API": 3,
+    "RestAPI": 4,
+    "Containerization": 5,
+    "DevOps": 6,
+    "Microservices": 7,
+    "Automation": 8,
+    "git": 9,
+    "github": 10,
+    "Repository": 11,
+    "Github": 12,
+    "Git": 13,
+    "VirtualBox": 14,
+    "Linux": 15,
+    "VM": 16,
+    "Installation": 17,
+    "Configuration": 18,
+    "VersionControl": 19,
+    "SCM": 20,
+    "GitHub": 21,
+    "GitLab": 22,
+    "Collaboration": 23,
+    "Branch": 24,
+    "Merge": 25,
+    "CLI": 26,
+    "OpenSource": 27
+  },
+  "_version": 3
+}

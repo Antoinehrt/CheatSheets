@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "10c77c70627afe40",
+        "id": "858e5d94030dc973",
         "type": "tabs",
         "children": [
           {
-            "id": "980b2a92115c1efd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/Docker.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Docker"
-            }
-          },
-          {
-            "id": "0f77608cec470747",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Framewroks/Angular.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Angular"
-            }
-          },
-          {
-            "id": "4d58fb8a963a8c97",
+            "id": "4ae13da860a87097",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,8 +21,7 @@
               "title": "GIT"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -62,6 +33,7 @@
       {
         "id": "3937e6950debc444",
         "type": "tabs",
+        "dimension": 68.78787878787878,
         "children": [
           {
             "id": "76fa9f6c69243ef8",
@@ -82,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Git",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,6 +73,23 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ae572248b2485afd",
+        "type": "tabs",
+        "dimension": 31.212121212121215,
+        "children": [
+          {
+            "id": "0f77608cec470747",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -157,7 +146,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -169,53 +160,53 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Framewroks/Spring Boot.md"
+                "file": "Tools/GIT.md",
+                "followCursor": true,
+                "showSearch": true,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Spring Boot"
-            }
-          },
-          {
-            "id": "0d2aa9ebf9c4a4e4",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "title": "Outline of GIT"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
+      "bases:Create new base": true,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": true,
+      "daily-notes:Open today's daily note": true,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "4d58fb8a963a8c97",
+  "active": "4ae13da860a87097",
   "lastOpenFiles": [
-    "DB/PostgreSQL.md",
+    "Tools/GIT.md",
+    "OS/Linux/Create a Linux Virtual Box.md",
     "Tools/Docker.md",
     "Framewroks/Spring Boot.md",
-    "Tools/GIT.md",
+    "ZObsidianTools/Img/Linux/Virtual Box/2024-12-03_screenshot_guest_addtion.png",
+    "Languages/CSharp.md",
+    "2025-11-24.md",
+    "Untitled.base",
+    "Untitled.canvas",
+    "Untitled 1.base",
+    "Framewroks/Angular.md",
+    "DB/PostgreSQL.md",
     "Languages/Python.md",
     "DB",
-    "OS/Linux/Create a Linux Virtual Box.md",
     "Languages/CLI.md",
-    "Framewroks/Angular.md",
     "ZObsidianTools/Models/Untitled.md",
     "Framewroks/Drawing 2025-01-05 18.50.40.excalidraw.md",
     "Framewroks",
@@ -224,12 +215,9 @@
     "Tools",
     "Tools/Shit.md",
     "ZObsidianTools/Models",
-    "ZObsidianTools/Img/Linux/Virtual Box/2024-12-03_screenshot_guest_addtion.png",
     "ZObsidianTools/Img/Linux/Virtual Box",
     "ZObsidianTools/Img/Linux",
     "ZObsidianTools/Img",
-    "OS/Linux",
-    "OS",
     "Welcome.md"
   ]
 }
