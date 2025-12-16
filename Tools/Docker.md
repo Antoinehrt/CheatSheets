@@ -1,10 +1,22 @@
-**Docker** is a tool that is used to automate the deployment of applications in lightweight containers so that applications can work efficiently in different environments in isolation.
- #Containerization #DevOps #Microservices #Automation
-
-- [[Docker#New Docker Container|Docker commands]]
-- [[Docker#DockerFile|New DockerFile]]
-
+---
+date: 2025-12-16
+---
 # Docker commands
+
+> **Description**: **Docker** is a tool that is used to automate the deployment of applications in lightweight containers so that applications can work efficiently in different environments in isolation.
+
+#Containerization #DevOps #Microservices #Automation #Docker #DockerCompose
+
+---
+
+## 📋 **Table of Contents**
+
+- [Image management commands](#image-management-commands)
+- [Container Management Commands](#container-management-commands)
+- [Docker Compose Commands](#docker-compose-commands)
+- [DockerFile](#dockerfile)
+
+---
 ### Image management commands
 
 - Build a new image from a DockerFile:

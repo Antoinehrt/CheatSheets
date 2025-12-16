@@ -1,3 +1,22 @@
+---
+date: date
+---
+# The new cheatsheet
+
+> **Description**: 
+
+#tags
+
+---
+
+## 📋 **Table of Contents**
+
+- [INTRO](#intro) - Intro
+- [CONTENT](#CONTENT) - content  
+- [CONCLUSION](#Conlusion) - Conclusion
+
+---
+
 Below is an English table of contents for an ASP.NET cheat sheet covering what you've learned/done in this project so far.
 1. Project overview 1. Purpose & scope 2. Solution layout and projects
 2. Folder & file structure 1. Common folders: Controllers, Application, Domain, Infrastructure, Tests 2. Key test files: tests/Users/CreateUserTests.cs, BaseFunctionalTest, FunctionalTestWebAppFactory
@@ -17,3 +36,9 @@ Below is an English table of contents for an ASP.NET cheat sheet covering what y
 16. Useful snippets & quick references 1. Example HttpClient test call pattern 2. Common validation attribute quick list
 17. Troubleshooting & gotchas 1. Common causes of BadRequest in tests 2. Fixes for flaky integration tests (DB isolation, async timing)
 Use this TOC to scaffold a concise cheat sheet; expand each item into short actionable notes and minimal examples for quick lookup.
+
+---
+## 📚 Ressources
+
+- [OutsideLink](https://test.com)
+- `[[Othercheasheet]]` - Other cheatsheet

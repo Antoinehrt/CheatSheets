@@ -1,5 +1,25 @@
+---
+date: 2025-12-16
+---
 # New Angular Project
 
+> **Description**: it explains how to create a new Angular project
+
+#Angular  #Frontend #Framework
+
+---
+## 📋 **Table of Contents**
+
+- [1. Creating the Project](#1-creating-the-project)
+- [2. Creation of the GIT repository](#2-creation-of-the-git-repository)
+- [3. Project configuration](#3-project-configuration)
+  - [3.1 Create environment](#31-create-environment)
+  - [3.2 Configure target-specific file replacements](#32-configure-target-specific-file-replacements)
+  - [3.3 How to use the import](#33-how-to-use-the-import)
+  - [3.4 Run the project with the right environment](#34-run-the-project-with-the-right-environment)
+- [4. Architecture](#4-architecture)
+
+---
 ## 1. Creating the Project
 
 To create the project, use this command:
@@ -16,7 +36,7 @@ ng add @angular/material
 
 ## 2. Creation of the [[GIT]] repository
 
-Don't forget to create or adapt if it's already created the .gitignore.
+Don't forget to create or adapt if it's already created the [[GIT#.gitignore|.gitignore]]
 
 ## 3. Project configuration
 

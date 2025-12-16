@@ -5,7 +5,7 @@ date: 2025-12-16
 
 > **Description**: A cheat sheet of core Linux command-line concepts for developers—finding things fast, moving around efficiently, viewing/parsing data, and more.
 
-#Linux #commands
+#Linux #commands #Docker #Git
 
 ---
 

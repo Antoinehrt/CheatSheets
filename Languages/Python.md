@@ -1,4 +1,23 @@
+---
+date: date
+---
 # New Python Project
+
+> **Description**: 
+
+#Python
+
+---
+
+## 📋 **Table of Contents**
+
+- [INTRO](#intro) - Intro
+- [CONTENT](#CONTENT) - content  
+- [CONCLUSION](#Conlusion) - Conclusion
+
+---
+
+
 ## Create a new virtual environment
 ```bash
 python -m venv new_env
@@ -10,3 +29,9 @@ python -m venv new_env
 new_env\Scripts\activate
 ```
 
+
+---
+## 📚 Ressources
+
+- [OutsideLink](https://test.com)
+- `[[Othercheasheet]]` - Other cheatsheet
