@@ -25,6 +25,7 @@
 ### 🖥️ **Operating Systems**
 
 - **[Linux VirtualBox Setup](OS/Linux/Create%20a%20Linux%20Virtual%20Box.md)** - VM setup and configuration
+- **[[Linux Commands]]** - List of some Linux commands
 
 ### 🛠️ **Development Tools**
 
@@ -35,20 +36,20 @@
 
 ## 🎯 **Most Used References**
 
-| Technology | Use Case | Status |
-|------------|----------|--------|
-| [Git](Tools/GIT.md) | Daily version control | ✅ Complete |
-| [Docker](Tools/Docker.md) | Container management | 📝 Available |
-| [Python](Languages/Python.md) | Scripting & development | 📝 Available |
-| [PostgreSQL](DB/PostgreSQL.md) | Database operations | 📝 Available |
+| Technology                                 | Use Case                | Status              |
+| ------------------------------------------ | ----------------------- | ------------------- |
+| [Git](Tools/GIT.md)                        | Daily version control   | ✅ Complete          |
+| [Docker](Tools/Docker.md)                  | Container management    | 📝 To check         |
+| [Linux Commands](Linux%20Commands.md) | Scripting & development | 📝 Work in progress |
+
 
 ---
 
 ## 📈 **Quick Stats**
 
-- **Total Cheat Sheets**: 7
+- **Total Cheat Sheets**: 9
 - **Categories**: 5 (DB, Frameworks, Languages, OS, Tools)
-- **Latest Addition**: Linux VirtualBox Setup
+- **Latest Addition**: Linux Commands
 - **Most Comprehensive**: Git (with modern commands & workflows)
 
 ---
@@ -69,10 +70,11 @@
 ├── 📁 Framewroks/            # Web & application frameworks  
 ├── 📁 Languages/             # Programming languages
 ├── 📁 OS/                    # Operating systems
+	└── 📁 Linux/             # Everything related to Linux    
 ├── 📁 Tools/                 # Development tools
 └── 📁 ZObsidianTools/        # Templates and assets
-    ├── 📁 Img/              # Images and screenshots
-    └── 📁 Models/           # Document templates
+    ├── 📁 Img/               # Images and screenshots
+    └── 📁 Models/            # Document templates
 ```
 
 ---
@@ -91,4 +93,4 @@ Common tags used across cheat sheets:
 
 *This vault serves as a curated collection of essential technical references for efficient development workflows.*
 
-**📅 Last updated**: November 2025 | **👤 Maintainer**: [Antoinehrt](https://github.com/Antoinehrt)
+**📅 Last updated**: December 2025 | **👤 Maintainer**: [Antoinehrt](https://github.com/Antoinehrt)
