@@ -1,97 +1,95 @@
 # VirtualBox - Créer une Machine Virtuelle Linux
 
-> **Description**: Guide étape par étape pour installer et configurer une machine virtuelle Linux avec VirtualBox.
+> **Description**: Step-by-step guide to install and configure a Linux virtual machine with VirtualBox.
 
 #VirtualBox #Linux #VM #Installation #Configuration
 
 ---
 
-## 📋 Prérequis
+## 📋 Prerequisites
 
-- [ ] VirtualBox installé sur votre système
-- [ ] Image ISO de la distribution Linux souhaitée
-- [ ] Au moins 4GB de RAM disponible
-- [ ] 20GB d'espace disque libre minimum
+- [ ] VirtualBox installed on your system
+- [ ] ISO image of the desired Linux distribution
+- [ ] At least 4GB of available RAM
+- [ ] Minimum 20GB of free disk space
 
 ---
 
-## 🔧 Installation et Configuration
+## 🔧 Installation and Configuration
 
-### 1. Installation de VirtualBox
+### 1. Install VirtualBox
 
-1. Télécharger et installer [VirtualBox](https://www.virtualbox.org)
-2. Redémarrer le système si nécessaire
+1. Download and install [VirtualBox](https://www.virtualbox.org)
+2. Restart the system if needed
 
-### 2. Préparation de l'image Linux
+### 2. Prepare the Linux image
 
-1. Choisir votre distribution Linux
-2. Télécharger l'image ISO depuis le site officiel de la distribution
-3. Vérifier l'intégrité du fichier (checksum recommandé)
+1. Choose your Linux distribution
+2. Download the ISO from the distribution’s official site
+3. Verify file integrity (checksum recommended)
 
-### 3. Configuration de la Machine Virtuelle
+### 3. Configure the Virtual Machine
 
-#### Création de la VM
+#### Create the VM
 
-1. **Nouvelle VM** : Cliquer sur "Nouvelle"
-2. **Nom et type** :
-   - Nom : Choisir un nom descriptif
-   - Type : Linux
-   - Version : Sélectionner la distribution appropriée
-3. **Mémoire** : Allouer au minimum 2GB (4GB recommandé)
-4. **Disque dur** : Créer un nouveau disque virtuel (20GB minimum)
+1. **New VM**: Click “New”
+2. **Name and type**:
+   - Name: Choose a descriptive name
+   - Type: Linux
+   - Version: Select the matching distribution
+3. **Memory**: Allocate at least 2GB (4GB recommended)
+4. **Hard disk**: Create a new virtual disk (20GB minimum)
 
-#### Configuration avancée
+#### Advanced settings
 
-1. **Processeurs** : Attribuer 2+ cœurs si disponibles
-2. **Image ISO** : Monter l'image dans le lecteur CD/DVD virtuel
-3. **Réseau** : Configurer l'adaptateur réseau (NAT par défaut)
+1. **Processors**: Assign 2+ cores if available
+2. **ISO image**: Mount the ISO in the virtual CD/DVD drive
+3. **Network**: Configure the network adapter (NAT by default)
 
-### 4. Installation du Système
+### 4. Install the OS
 
-1. **Démarrage** : Lancer la VM
-2. **Installation** : Suivre l'assistant d'installation de la distribution
-3. **Configuration utilisateur** : Créer un compte utilisateur avec mot de passe
-4. **Redémarrage** : Redémarrer après installation complète
+1. **Start**: Launch the VM
+2. **Install**: Follow the distribution’s installation wizard
+3. **User setup**: Create a user account with a password
+4. **Restart**: Reboot after installation completes
 
 ### 5. Post-Installation
 
-#### Suppression de l'image ISO
+#### Remove the ISO
 
-1. Éteindre la VM
-2. **Paramètres** → **Stockage** → Retirer l'image ISO du lecteur virtuel
+1. Power off the VM
+2. **Settings** → **Storage** → Remove the ISO from the virtual drive
 
-#### Installation des Guest Additions
+#### Install Guest Additions
 
-1. **Menu VM** → **Insérer l'image CD des Guest Additions**
-2. Monter le CD dans le système invité
-3. Exécuter l'installation des Guest Additions
-4. Redémarrer la VM
+1. **VM menu** → **Insert Guest Additions CD image**
+2. Mount the CD in the guest system
+3. Run the Guest Additions installer
+4. Restart the VM
 
 ![[2024-12-03_screenshot_guest_addtion.png]]
 
 ---
 
-## 🛠️ Dépannage
+## 🛠️ Troubleshooting
 
-### Terminal manquant
+### Missing terminal
 
-Si aucune application de console n'est disponible :
+If no console app is available:
 
-- **Paramètres** → **Applications** → **Terminal** → **Ouvrir dans le logiciel** → **Installer**
+- **Settings** → **Applications** → **Terminal** → **Open in Software** → **Install**
 
-### Performances optimales
+### Optimal performance
 
-- Activer la virtualisation matérielle dans le BIOS
-- Allouer suffisamment de RAM
-- Installer les Guest Additions pour l'intégration complète
+- Enable hardware virtualization in BIOS
+- Allocate sufficient RAM
+- Install Guest Additions for full integration
 
 ---
 
-## 📚 Ressources
+## 📚 Resources
 
-- [Documentation VirtualBox](https://www.virtualbox.org/manual/)
-- [Liste des distributions Linux](https://distrowatch.com/)
-- [[Docker]] - Alternative pour la conteneurisation
-- [[Linux]] - Commandes et administration système
-
-
+- [VirtualBox Documentation](https://www.virtualbox.org/manual/)
+- [List of Linux distributions](https://distrowatch.com/)
+- [[Docker]] - Alternative for containerization
+- [[Linux Commands]] - Commands and system administration
