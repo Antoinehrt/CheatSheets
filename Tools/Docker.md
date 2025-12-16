@@ -65,6 +65,9 @@ docker-compose up <service_name>
 ```bash
 docker-compose logs <service_name>
 ```
+```bash
+docker-compose logs -f
+```
 
 # DockerFile
 
