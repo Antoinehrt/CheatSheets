@@ -38,7 +38,16 @@
     "CLI": 26,
     "OpenSource": 27,
     "commands": 28,
-    "tags": 29
+    "tags": 29,
+    "Docker": 30,
+    "DockerCompose": 31,
+    "excalidraw": 32,
+    "Postgresql": 33,
+    "SQL": 34,
+    "Angular": 35,
+    "Frontend": 36,
+    "Framework": 37,
+    "Python": 38
   },
   "_version": 3
 }

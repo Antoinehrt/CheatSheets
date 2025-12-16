@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4edeb87bb0a38395",
+        "id": "9d9cbec91863b85b",
         "type": "tabs",
         "children": [
           {
-            "id": "624b8ff881a2dfc0",
+            "id": "645319ff33ddee10",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OS/Linux/Linux Commands.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Linux Commands"
+              "title": "New tab"
             }
           }
         ]
@@ -54,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Git",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -189,25 +185,68 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "624b8ff881a2dfc0",
+  "floating": {
+    "id": "20a471ada8eb5c5b",
+    "type": "floating",
+    "children": [
+      {
+        "id": "b9cf30fe82b56784",
+        "type": "window",
+        "children": [
+          {
+            "id": "a2dedc63603b3f95",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "624b8ff881a2dfc0",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "ZObsidianTools/Models/Template Cheat Sheet.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Template Cheat Sheet"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 439,
+        "y": 28,
+        "width": 1276,
+        "height": 1000,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "645319ff33ddee10",
   "lastOpenFiles": [
-    "OS/Linux/Create a Linux Virtual Box.md",
-    "Framewroks/Angular.md",
-    "Framewroks/Spring Boot.md",
-    "Tools/GIT.md",
-    "Languages/CSharp.md",
     "README.md",
+    "Languages/CLI.md",
+    "Tools/GIT.md",
     "Tools/Docker.md",
+    "ZObsidianTools/Models/Template Cheat Sheet.md",
+    "Languages/Python.md",
+    "Languages/CSharp.md",
+    "Framewroks/Spring Boot.md",
+    "Framewroks/Angular.md",
+    "DB/PostgreSQL.md",
+    "Excalidraw/Drawing 2025-12-16 12.27.38.excalidraw.md",
+    "Excalidraw",
+    "OS/Linux/Linux Commands.md",
+    "OS/Linux/Create a Linux Virtual Box.md",
     "Home Page.md",
     "ZObsidianTools/Img/Linux/Virtual Box/2024-12-03_screenshot_guest_addtion.png",
     "2025-11-24.md",
     "Untitled.base",
     "Untitled.canvas",
     "Untitled 1.base",
-    "DB/PostgreSQL.md",
-    "Languages/Python.md",
     "DB",
-    "Languages/CLI.md",
     "ZObsidianTools/Models/Untitled.md",
     "Framewroks/Drawing 2025-01-05 18.50.40.excalidraw.md",
     "Framewroks",
@@ -218,7 +257,6 @@
     "ZObsidianTools/Models",
     "ZObsidianTools/Img/Linux/Virtual Box",
     "ZObsidianTools/Img/Linux",
-    "ZObsidianTools/Img",
     "Welcome.md"
   ]
 }
