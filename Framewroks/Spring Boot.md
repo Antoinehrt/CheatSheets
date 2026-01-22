@@ -1,6 +1,15 @@
-**Spring Boot** is an open-source Java framework used for programming standalone, production-grade Spring-based applications with a bundle of libraries that make project startup and management easier.
+---
+date: date
+---
+# New Spring Boot project
+
+> **Description**: **Spring Boot** is an open-source Java framework used for programming standalone, production-grade Spring-based applications with a bundle of libraries that make project start-up and management easier.
 
 #Java #Backend #API #RestAPI
+
+---
+
+## 📋 **Table of Contents**
 
 - [[Spring Boot#Setup a project|Setup a project]] 
 	- [[Spring Boot#1. DockerFile For Spring Boot|1. DockerFile]]
@@ -13,6 +22,7 @@
 	- [[Spring Boot#3. Controller|3. Controller]]
 - [[Spring Boot#Problems|Problems]]
 
+---
 # Setup a project
 
 To setup the project you can either follow your IDE suggestion or go to [start.spring.io](https://start.spring.io/) and follow their guide.
@@ -20,11 +30,11 @@ To setup the project you can either follow your IDE suggestion or go to [start.s
 This cheat sheet will explain how to containerise a Spring Boot project with PostgreSQL and Maven using [[Docker]] 
 
 
-## Spring Boot DockerFile
+## Spring Boot [[Docker#DockerFile|DockerFile]]
 
 When the project is setup, we will already begin by the containerisation because in order to run properly, Spring Boot need to be connected to a running database.
 
-### 1. DockerFile For Spring Boot
+### 1. [[Docker#DockerFile|DockerFile]] For Spring Boot
 
 Unlike many common [[Docker#DockerFile|DockerFile]] setups that only copy the compiled JAR, this approach copies the entire project into the container. This allows the container to build the JAR itself, making it more suitable for active development workflows.  
 

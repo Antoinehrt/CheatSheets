@@ -1,3 +1,6 @@
+---
+date: 2025-12-16
+---
 # Git - Version Control System
 
 > **Description**: Git is a free and open-source distributed version control system designed to handle projects of all sizes efficiently. It allows tracking source code changes, collaborating with other developers, and maintaining a complete version history.

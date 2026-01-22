@@ -1,6 +1,5 @@
 ---
-date: date
-tags:
+date: 2025-12-16
 ---
 # The new cheatsheet
 
