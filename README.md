@@ -13,8 +13,8 @@
 
 ### 🏗️ **Frameworks**
 
-- **[Angular](Framewroks/Angular.md)** - Component development, routing, and services
-- **[Spring Boot](Framewroks/Spring%20Boot.md)** - Java enterprise application development
+- **[Angular](Frameworks/Angular.md)** - Component development, routing, and services
+- **[SpringBoot](SpringBoot.md)** - Java enterprise application development
 
 ### 💻 **Programming Languages**
 
@@ -23,8 +23,8 @@
 
 ### 🖥️ **Operating Systems**
 
-- **[Linux VirtualBox Setup](OS/Linux/Create%20a%20Linux%20Virtual%20Box.md)** - VM setup and configuration
-- **[[Linux Commands]]** - List of some Linux commands
+- **[Linux VirtualBox Setup](Create_a_Linux_Virtual_Box.md)** - VM setup and configuration
+- **[[Linux_Commands]]** - List of some Linux commands
 
 ### 🛠️ **Development Tools**
 
@@ -39,7 +39,7 @@
 | ------------------------------------- | ----------------------- | ------------------- |
 | [Git](Tools/GIT.md)                   | Daily version control   | ✅ Complete          |
 | [Docker](Tools/Docker.md)             | Container management    | 📝 Work in progress |
-| [Linux Commands](Linux%20Commands.md) | Scripting & development | 📝 Work in progress |
+| [Linux_Commands](Linux_Commands.md) | Scripting & development | 📝 Work in progress |
 
 
 ---
@@ -66,7 +66,7 @@
 ```text
 📁 CheatSheets/
 ├── 📁 DB/                    # Database technologies
-├── 📁 Framewroks/            # Web & application frameworks  
+├── 📁 Frameworks/            # Web & application frameworks  
 ├── 📁 Languages/             # Programming languages
 ├── 📁 OS/                    # Operating systems
 	└── 📁 Linux/             # Everything related to Linux    
@@ -92,4 +92,4 @@ Common tags used across cheat sheets:
 
 *This vault serves as a curated collection of essential technical references for efficient development workflows.*
 
-**📅 Last updated**: December 2025 | **👤 Maintainer**: [Antoinehrt](https://github.com/Antoinehrt)
+**📅 Last updated**: January 2026 | **👤 Maintainer**: [Antoinehrt](https://github.com/Antoinehrt)

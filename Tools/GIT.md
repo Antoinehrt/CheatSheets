@@ -82,7 +82,7 @@ git status
 git add <filename>
 ```
 
-or to add every files
+or to add all files
 
 ```bash
 git add .

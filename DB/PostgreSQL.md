@@ -11,33 +11,33 @@ date: 2025-12-16
 
 - [INTRO](#intro) - Intro
 - [CONTENT](#CONTENT) - content  
-- [CONCLUSION](#Conlusion) - Conclusion
+- [CONCLUSION](#Conclusion) - Conclusion
 
 ---
 
-Connect to psql
+- Connect to psql
 ~~~postgresql
 psql -U postgres
 ~~~
 
-Connect to the table
+- Connect to a database
 
 ~~~postgresql
-\c <table_name>
+\c <database_name>
 ~~~
 
-create db 
+- Create database 
 
 ~~~postgresql
 CREATE DATABASE <database_name>
 ~~~
 
-Show tables
+- Show tables
 ~~~postgresql
 \dt
 ~~~
 
-show a specific table
+- Show a specific table
 ~~~postgresql
 \d <table_name>
 ~~~

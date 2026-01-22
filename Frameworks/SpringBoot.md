@@ -11,19 +11,19 @@ date: date
 
 ## 📋 **Table of Contents**
 
-- [[Spring Boot#Setup a project|Setup a project]] 
-	- [[Spring Boot#1. DockerFile For Spring Boot|1. DockerFile]]
-	- [[Spring Boot#2. Environment File|2. Environment File]]
-	- [[Spring Boot#3. Docker-compose with the database|3. Docker Compose Configuration]]
-	- [[Spring Boot#4. Setup Application Properties|4. Application Properties]]
-- [[Spring Boot#Creation of a basic CRUD|Basic CRUD]]
-	- [[Spring Boot#1. Entity|1. Entity]]
-	- [[Spring Boot#2. Repository|2. Repository]]
-	- [[Spring Boot#3. Controller|3. Controller]]
-- [[Spring Boot#Problems|Problems]]
+- [[SpringBoot#Setup a project|Setup a project]] 
+	- [[SpringBoot#1. DockerFile For Spring Boot|1. DockerFile]]
+	- [[SpringBoot#2. Environment File|2. Environment File]]
+	- [[SpringBoot#3. Docker-compose with the database|3. Docker Compose Configuration]]
+	- [[SpringBoot#4. Setup Application Properties|4. Application Properties]]
+- [[SpringBoot#Creation of a basic CRUD|Basic CRUD]]
+	- [[SpringBoot#1. Entity|1. Entity]]
+	- [[SpringBoot#2. Repository|2. Repository]]
+	- [[SpringBoot#3. Controller|3. Controller]]
+- [[SpringBoot#Problems|Problems]]
 
 ---
-# Setup a project
+## Setup a project
 
 To setup the project you can either follow your IDE suggestion or go to [start.spring.io](https://start.spring.io/) and follow their guide.
 
@@ -141,7 +141,7 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 spring.jpa.hibernate.ddl-auto=update 
 ```
 
-# Creation of a basic CRUD
+## Creation of a basic CRUD
 
 ### 1. Entity
 

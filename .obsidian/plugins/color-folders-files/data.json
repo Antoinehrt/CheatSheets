@@ -34,7 +34,12 @@
       "textColor": "#ffffff"
     },
     "DB": {
-      "backgroundColor": "#34495e"
+      "backgroundColor": "#3a5e83",
+      "textColor": "#ffffff"
+    },
+    "Frameworks": {
+      "backgroundColor": "#2aac60",
+      "textColor": "#ffffff"
     }
   },
   "presets": {

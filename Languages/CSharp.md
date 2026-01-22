@@ -1,7 +1,7 @@
 ---
 date: date
 ---
-# The new cheatsheet
+# ASP.NET Cheat sheet
 
 > **Description**: 
 
@@ -13,7 +13,7 @@ date: date
 
 - [INTRO](#intro) - Intro
 - [CONTENT](#CONTENT) - content  
-- [CONCLUSION](#Conlusion) - Conclusion
+- [CONCLUSION](#Conclusion) - Conclusion
 
 ---
 

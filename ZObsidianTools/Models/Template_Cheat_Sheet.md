@@ -13,7 +13,7 @@ date: 2025-12-16
 
 - [INTRO](#intro) - Intro
 - [CONTENT](#CONTENT) - content  
-- [CONCLUSION](#Conlusion) - Conclusion
+- [CONCLUSION](#Conclusion) - Conclusion
 
 ---
 

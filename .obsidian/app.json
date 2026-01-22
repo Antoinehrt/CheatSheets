@@ -3,5 +3,6 @@
   "trashOption": "local",
   "newFileLocation": "current",
   "showUnsupportedFiles": true,
-  "vimMode": true
+  "vimMode": true,
+  "alwaysUpdateLinks": true
 }

@@ -37,6 +37,6 @@
   "Languages": "FarKeyboard",
   "OS": "LiComputer",
   "Tools": "LiGitGraph",
-  "Framewroks": "LiAppWindow",
-  "DB": "LiCloud"
+  "DB": "LiCloud",
+  "Frameworks": "LiAppWindow"
 }

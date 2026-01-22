@@ -42,7 +42,7 @@ You can add the `--detach` argument to run the image detached from the terminal
 docker images
 ```
 
-- Delete an image:
+- Remove an image:
 ```bash
 docker rmi <image_name>
 ```
@@ -52,7 +52,7 @@ docker rmi <image_name>
 ``` bash
 docker exec -it <container_name> /bin/bash
 ```
-- List running container:
+- List running containers:
 ```bash
 docker ps
 ```

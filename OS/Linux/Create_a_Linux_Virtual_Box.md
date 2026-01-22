@@ -92,4 +92,4 @@ If no console app is available:
 - [VirtualBox Documentation](https://www.virtualbox.org/manual/)
 - [List of Linux distributions](https://distrowatch.com/)
 - [[Docker]] - Alternative for containerization
-- [[Linux Commands]] - Commands and system administration
+- [[Linux_Commands]] - Commands and system administration

@@ -1,7 +1,7 @@
 ---
 date: date
 ---
-# New Python Project
+# Python Project Setup
 
 > **Description**: 
 
