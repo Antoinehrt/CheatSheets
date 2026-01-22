@@ -1,5 +1,26 @@
+---
+date: 2025-12-16
+---
 # New Angular Project
 
+> **Description**: this explains how to create a new Angular project
+
+#Angular  #Frontend #Framework
+
+---
+## 📋 **Table of Contents**
+
+- [1. Creating the Project](#1-creating-the-project)
+- [2. Creation of the GIT repository](#2-creation-of-the-git-repository)
+- [3. Project configuration](#3-project-configuration)
+  - [3.1 Create environment](#31-create-environment)
+  - [3.2 Configure target-specific file replacements](#32-configure-target-specific-file-replacements)
+  - [3.3 How to use the import](#33-how-to-use-the-import)
+  - [3.4 Run the project with the right environment](#34-run-the-project-with-the-right-environment)
+- [4. Architecture](#4-architecture)
+- [5. RxJS – Avoid nested subscribe](#5-rxjs--avoid-nested-subscribe)
+
+---
 ## 1. Creating the Project
 
 To create the project, use this command:
@@ -16,31 +37,31 @@ ng add @angular/material
 
 ## 2. Creation of the [[GIT]] repository
 
-Don't forget to create or adapt if it's already created the .gitignore.
+Don't forget to create or adapt if it's already created the [[GIT#.gitignore|.gitignore]]
 
 ## 3. Project configuration
 
 ### 3.1 Create environment
 
-It's the file were you stock all your environment variable
+This is the file where you store all your environment variables.
 Create environment using this command:
 
 ```bash
 ng generate environments
 ```
 
-To create a new environment, just create new files.
+To create a new environment, simply create a new environment file.
 
 - development
 
 ```ts
 export const environment = {
   production: false,
-  API_URL: 'https://127.0.0.1:8000' //This should be the ip of the distant server
+  API_URL: 'https://127.0.0.1:8000' //This should be the ip of the remote server
 };
 ```
 
-- staging (This environment is for testing purposing)``
+- staging (This environment is for testing purposes)``
 
 ```ts
 export const environment = {
@@ -66,6 +87,7 @@ export const environment = {
   API_URL: 'https://yourProject.com' 
 };
 ```
+> Naming convention may vary, but Angular recommends `environment.<target>.ts`
 
 ### 3.2. Configure target-specific file replacements
 
@@ -156,7 +178,7 @@ ng serve --configuration=NameOfYourConfig
 F:\YourProject\src
 ├───app
 │   ├───core
-│   │   ├───common
+│   │   ├───dtos
 │   │   ├───directives
 │   │   ├───guards
 │   │   ├───interceptors
@@ -165,7 +187,163 @@ F:\YourProject\src
 │   │   ├───services
 │   │   └───validators
 │   └───pages
+├───shared
+|   ├───components
+|   └───styles	
 ├───assets
 │   └───img
 └───environments
 ```
+
+### Naming conventions (Angular / TypeScript)
+
+> Angular does not enforce file naming conventions, but following common patterns improves readability, tooling, and team collaboration.
+
+### General pattern
+
+```ts
+<feature>.<purpose>.ts
+```
+
+### Common examples
+
+```ts
+user.component.ts 
+user.service.ts 
+user.model.ts 
+user.dto.ts 
+user.guard.ts 
+user.interceptor.ts 
+user.resolver.ts 
+user.pipe.ts
+...
+```
+
+## 5. RxJS – Avoid nested subscribe
+
+> **Problem**: When one HTTP call depends on the result of another, using nested `.subscribe()` leads to unreadable, hard-to-maintain code.
+
+### 5.1 ❌ The problem: nested subscribe
+
+Example of what **not** to do:
+
+```ts
+this.userService.getUser(userId).subscribe(user => {
+   this.orderService.getOrders(user.id).subscribe(orders => {  
+	   this.orders = orders;   
+   }); 
+});
+```
+
+**Issues:**
+- Hard to read (callback hell)
+- Error handling becomes complex
+- Difficult to unsubscribe properly
+- Not idiomatic RxJS
+
+---
+
+### 5.2 ✅ The solution: `pipe()` + `switchMap()`
+
+Instead of subscribing multiple times, you **transform the observable**.
+
+```ts
+this.userService.getUser(userId).pipe(
+   switchMap(user => this.orderService.getOrders(user.id)) ).subscribe(orders => {
+  this.orders = orders; 
+});
+
+```
+
+**Why this works:**
+
+- `getUser()` emits a `user`
+- `switchMap()` uses that value to create a **new observable**
+- RxJS automatically:
+    - cancels previous inner subscriptions
+    - keeps only the latest one
+
+💡 **Rule of thumb**:
+
+> If a second observable depends on the result of the first → `switchMap`
+
+---
+
+### 5.3 How `switchMap` works (simplified)
+
+
+```ts
+sourceObservable.pipe(   
+	switchMap(valueFromSource => anotherObservable(valueFromSource)) 
+)
+```
+- Each emission **switches** to a new observable
+- Previous inner observable is **cancelled**
+- Perfect for:
+    - HTTP calls
+    - route changes
+    - user interactions
+
+---
+
+### 5.4 Comparison with other operators
+
+|Operator|Behavior|
+|---|---|
+|`switchMap`|Cancels previous request (most common for HTTP)|
+|`mergeMap`|Runs all requests in parallel|
+|`concatMap`|Queues requests (one after another)|
+|`exhaustMap`|Ignores new emissions while one is running|
+
+![[operators.png]]
+
+---
+
+### 5.5 Understanding `.subscribe({ next, error, complete })`
+
+A `subscribe()` can receive an **observer object**:
+
+
+```ts
+this.userService.getUser(userId).subscribe({
+	next: user => {
+		console.log('User received', user);   
+	},   
+	error: err => {
+		console.error('Error', err);   
+	 },   
+	 complete: () => {     
+		 console.log('Observable completed');   
+	 } 
+ });
+```
+#### `next`
+
+- Called **each time** the observable emits a value
+- For HTTP calls → usually **once**
+
+#### `error`
+
+- Called if the observable fails
+- Automatically stops the stream
+
+#### `complete`
+
+- Called when the observable finishes normally
+- HTTP observables always complete
+
+---
+
+### 5.6 Best practice summary
+
+✅ **Do**
+
+- Use `pipe()` to compose observables
+- Use `switchMap` for dependent HTTP calls
+- Subscribe **once**, at the end
+
+❌ **Avoid**
+
+- Nested `subscribe()`
+- Business logic inside `subscribe`
+- Multiple subscriptions in components
