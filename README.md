@@ -20,7 +20,6 @@
 
 - **[Python](Languages/Python.md)** - Syntax, libraries, and best practices
 - **[C#](Languages/CSharp.md)** - .NET development essentials
-- **[CLI](Languages/CLI.md)** - Command-line interfaces and scripting
 
 ### 🖥️ **Operating Systems**
 
@@ -36,10 +35,10 @@
 
 ## 🎯 **Most Used References**
 
-| Technology                                 | Use Case                | Status              |
-| ------------------------------------------ | ----------------------- | ------------------- |
-| [Git](Tools/GIT.md)                        | Daily version control   | ✅ Complete          |
-| [Docker](Tools/Docker.md)                  | Container management    | 📝 To check         |
+| Technology                            | Use Case                | Status              |
+| ------------------------------------- | ----------------------- | ------------------- |
+| [Git](Tools/GIT.md)                   | Daily version control   | ✅ Complete          |
+| [Docker](Tools/Docker.md)             | Container management    | 📝 Work in progress |
 | [Linux Commands](Linux%20Commands.md) | Scripting & development | 📝 Work in progress |
 
 
