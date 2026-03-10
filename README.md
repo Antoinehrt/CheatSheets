@@ -76,6 +76,9 @@
     └── 📁 Models/            # Document templates
 ```
 
+![[Obsidian_DB.base]]
+
+
 ---
 
 ## 🏷️ **Tags Overview**

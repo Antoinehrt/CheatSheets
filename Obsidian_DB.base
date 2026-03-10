@@ -1,0 +1,14 @@
+filters:
+  and:
+    - file.folder != "ZObsidianTools"
+    - file.folder != "/"
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - file.tags
+    sort: []
