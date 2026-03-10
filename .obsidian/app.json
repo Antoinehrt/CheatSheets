@@ -1,8 +1,9 @@
 {
   "showLineNumber": true,
-  "trashOption": "local",
+  "trashOption": "system",
   "newFileLocation": "current",
   "showUnsupportedFiles": true,
-  "vimMode": true,
-  "alwaysUpdateLinks": true
+  "vimMode": false,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "ZObsidianTools/Img"
 }

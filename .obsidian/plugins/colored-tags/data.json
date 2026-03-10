@@ -46,7 +46,10 @@
     "Framework": 34,
     "Python": 35,
     "Docker": 36,
-    "DockerCompose": 37
+    "DockerCompose": 37,
+    "CSS": 38,
+    "SCSS": 39,
+    "Stylesheet": 40
   },
   "_version": 3
 }
