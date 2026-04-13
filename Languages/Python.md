@@ -1,14 +1,10 @@
 ---
-date: date
+date: 13/04/2026
+tags:
+  - Python
+  - Backend
+description:
 ---
-# Python Project Setup
-
-> **Description**: 
-
-#Python
-
----
-
 ## 📋 **Table of Contents**
 
 - [INTRO](#intro) - Intro

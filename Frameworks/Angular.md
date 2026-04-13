@@ -1,12 +1,9 @@
 ---
 date: 2025-12-16
----
-# New Angular Project
-
-> **Description**: this explains how to create a new Angular project
-
-#Angular  #Frontend #Framework
-
+tags:
+  - Angular
+  - Frontend
+  - Framework
 ---
 ## 📋 **Table of Contents**
 

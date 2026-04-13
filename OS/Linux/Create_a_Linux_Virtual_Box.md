@@ -1,11 +1,13 @@
-# VirtualBox - Créer une Machine Virtuelle Linux
-
-> **Description**: Step-by-step guide to install and configure a Linux virtual machine with VirtualBox.
-
-#VirtualBox #Linux #VM #Installation #Configuration
-
 ---
-
+date: 2026-04-13
+tags:
+  - VirtualBox
+  - Linux
+  - VM
+  - Installation
+  - Configuration
+description: Step-by-step guide to install and configure a Linux virtual machine with VirtualBox
+---
 ## 📋 Prerequisites
 
 - [ ] VirtualBox installed on your system

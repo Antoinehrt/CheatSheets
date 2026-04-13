@@ -1,12 +1,10 @@
 ---
 date: 2025-12-16
+tags:
+  - Postgresql
+  - SQL
+description:
 ---
-> **Description**: 
-
-#Postgresql #SQL
-
----
-
 ## 📋 **Table of Contents**
 
 - [INTRO](#intro) - Intro

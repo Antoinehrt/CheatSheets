@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Tools/GIT.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -174,8 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,24 +191,24 @@
   },
   "active": "e48ab87532f55748",
   "lastOpenFiles": [
-    "OS/Linux/Linux_Commands.md",
+    "Tools/Docker.md",
+    "OS/Linux/Github_SSL_Linux.md",
     "OS/Linux/Create_a_Linux_Virtual_Box.md",
+    "Languages/Python.md",
+    "Languages/CSS - SCSS.md",
+    "Languages/CSharp ASP.NET.md",
+    "ZObsidianTools/Models/Template_Cheat_Sheet.md",
+    "Frameworks/SpringBoot.md",
+    "Frameworks/Angular.md",
+    "DB/PostgreSQL.md",
+    "Tools/GIT.md",
+    "OS/Linux/Linux_Commands.md",
     "Obsidian_DB.base",
     "README.md",
-    "Tools/Docker.md",
-    "Frameworks/SpringBoot.md",
-    "Tools/GIT.md",
-    "Languages/CSS - SCSS.md",
-    "Languages/Python.md",
-    "Languages/CSharp.md",
-    "Frameworks/Angular.md",
-    "ZObsidianTools/Models/Template_Cheat_Sheet.md",
     "ZObsidianTools/Img/CSS-SCSS/Radius_Function.png",
     "ZObsidianTools/Img/CSS-SCSS",
     "ZObsidianTools/Img/New folder",
-    "DB/PostgreSQL.md",
     "Frameworks/anglar.md",
-    "OS/Linux/Github_SSL_Linux.md",
     "ZObsidianTools/Img/RJXS/operators.png",
     "ZObsidianTools/Img/RJXS/Unconfirmed 431763.crdownload",
     "ZObsidianTools/Img/RJXS",

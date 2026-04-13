@@ -19,7 +19,7 @@
 ### 💻 **Programming Languages**
 
 - **[Python](Languages/Python.md)** - Syntax, libraries, and best practices
-- **[C#](Languages/CSharp.md)** - .NET development essentials
+- **[C#](CSharp%20ASP.NET.md)** - .NET development essentials
 
 ### 🖥️ **Operating Systems**
 

@@ -1,15 +1,14 @@
 ---
 date: 2025-12-16
+tags:
+  - Containerization
+  - DevOps
+  - Microservices
+  - Automation
+  - Docker
+  - DockerCompose
+description: Docker is a tool that is used to automate the deployment of applications in lightweight containers so that applications can run efficiently in isolated environments
 ---
-# Most common Docker commands
-
-> **Description**: **Docker** is a tool that is used to automate the deployment of applications in lightweight containers so that applications can run efficiently in isolated environments.
-
-
-#Containerization #DevOps #Microservices #Automation #Docker #DockerCompose
-
----
-
 ## 📋 **Table of Contents**
 
 - [Image management commands](#image-management-commands)

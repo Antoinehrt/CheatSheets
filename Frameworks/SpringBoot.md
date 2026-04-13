@@ -1,14 +1,12 @@
 ---
-date: date
+date: 13/04/2026
+tags:
+  - Java
+  - Backend
+  - API
+  - RestAPI
+description: Spring Boot is an open-source Java framework used for programming standalone, production-grade Spring-based applications with a bundle of libraries that make project start-up and management easier.
 ---
-# New Spring Boot project
-
-> **Description**: **Spring Boot** is an open-source Java framework used for programming standalone, production-grade Spring-based applications with a bundle of libraries that make project start-up and management easier.
-
-#Java #Backend #API #RestAPI
-
----
-
 ## 📋 **Table of Contents**
 
 - [[SpringBoot#Setup a project|Setup a project]] 

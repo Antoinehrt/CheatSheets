@@ -1,14 +1,8 @@
 ---
 date: 2025-12-16
+tags:
+description:
 ---
-# The new cheatsheet
-
-> **Description**: 
-
-#tags
-
----
-
 ## 📋 **Table of Contents**
 
 - [INTRO](#intro) - Intro

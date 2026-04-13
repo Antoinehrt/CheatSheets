@@ -49,7 +49,8 @@
     "DockerCompose": 37,
     "CSS": 38,
     "SCSS": 39,
-    "Stylesheet": 40
+    "Stylesheet": 40,
+    "CSharp": 41
   },
   "_version": 3
 }

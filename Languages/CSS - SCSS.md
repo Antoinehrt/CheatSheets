@@ -1,14 +1,12 @@
 ---
 date: 2025-12-16
+tags:
+  - CSS
+  - SCSS
+  - Stylesheet
+  - Frontend
+description:
 ---
-# The new cheatsheet
-
-> **Description**: 
-
-#CSS #SCSS #Stylesheet
-
----
-
 ## 📋 **Table of Contents**
 
 - [INTRO](#intro) - Intro
