@@ -13,12 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Tools/GIT.md",
+=======
+                "file": "Languages/CSharp.md",
+>>>>>>> Stashed changes
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< Updated upstream
               "title": "GIT"
+=======
+              "title": "CSharp"
+>>>>>>> Stashed changes
             }
           }
         ]
@@ -191,8 +199,16 @@
   },
   "active": "e48ab87532f55748",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "Tools/Docker.md",
     "OS/Linux/Github_SSL_Linux.md",
+=======
+    "Frameworks/Angular.md",
+    "DB/PostgreSQL.md",
+    "README.md",
+    "Obsidian_DB.base",
+    "Languages/Python.md",
+>>>>>>> Stashed changes
     "OS/Linux/Create_a_Linux_Virtual_Box.md",
     "Languages/Python.md",
     "Languages/CSS - SCSS.md",
@@ -208,6 +224,12 @@
     "ZObsidianTools/Img/CSS-SCSS/Radius_Function.png",
     "ZObsidianTools/Img/CSS-SCSS",
     "ZObsidianTools/Img/New folder",
+<<<<<<< Updated upstream
+=======
+    "Frameworks/SpringBoot.md",
+    "OS/Linux/Linux_Commands.md",
+    "Languages/CSharp.md",
+>>>>>>> Stashed changes
     "Frameworks/anglar.md",
     "ZObsidianTools/Img/RJXS/operators.png",
     "ZObsidianTools/Img/RJXS/Unconfirmed 431763.crdownload",
