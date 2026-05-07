@@ -1,14 +1,12 @@
 ---
 date: 2025-12-16
+tags:
+  - "#Linux"
+  - "#commands"
+  - "#Docker"
+  - "#Git"
+description: A cheat sheet of core Linux command-line concepts for developers—finding things fast, moving around efficiently, viewing/parsing data, and more.
 ---
-# Linux Commands Every Dev Should Know
-
-> **Description**: A cheat sheet of core Linux command-line concepts for developers—finding things fast, moving around efficiently, viewing/parsing data, and more.
-
-#Linux #commands #Docker #Git
-
----
-
 ## 📋 **Table of Contents**
 
 - [Search & Find](#search--find)

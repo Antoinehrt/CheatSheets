@@ -9,12 +9,12 @@
 
 ### 🗄️ **Databases**
 
-- **[PostgreSQL](DB/PostgreSQL.md)** - SQL queries, administration, and optimization
+- **[PostgreSQL](DB/PostgreSQL.md)** - SQL queries, administration, and optimisation
 
 ### 🏗️ **Frameworks**
 
-- **[Angular](Frameworks/Angular.md)** - Component development, routing, and services
-- **[SpringBoot](SpringBoot.md)** - Java enterprise application development
+- **[Angular](Angular.md)** - Component development, routing, and services
+- **[SpringBoot](Frameworks/SpringBoot.md)** - Java enterprise application development
 
 ### 💻 **Programming Languages**
 
@@ -23,13 +23,13 @@
 
 ### 🖥️ **Operating Systems**
 
-- **[Linux VirtualBox Setup](Create_a_Linux_Virtual_Box.md)** - VM setup and configuration
-- **[[Linux_Commands]]** - List of some Linux commands
+- **[Linux VirtualBox Setup](OS/Linux/Create_a_Linux_Virtual_Box.md)** - VM setup and configuration
+- **[Linux_Commands](OS/Linux/Linux_Commands.md)** - List of some Linux commands
 
 ### 🛠️ **Development Tools**
 
 - **[Git](Tools/GIT.md)** - Version control workflows and commands
-- **[Docker](Tools/Docker.md)** - Containerization and deployment
+- **[Docker](Tools/Docker.md)** - Containerisation and deployment
 
 ---
 
@@ -95,4 +95,4 @@ Common tags used across cheat sheets:
 
 *This vault serves as a curated collection of essential technical references for efficient development workflows.*
 
-**📅 Last updated**: January 2026 | **👤 Maintainer**: [Antoinehrt](https://github.com/Antoinehrt)
+**📅 Last updated**: May 2026 | **👤 Maintainer**: [Antoinehrt](https://github.com/Antoinehrt)

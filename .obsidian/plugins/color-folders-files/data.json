@@ -40,7 +40,8 @@
     "Frameworks": {
       "backgroundColor": "#7db587",
       "textColor": "#ffffff"
-    }
+    },
+    "_assets": {}
   },
   "presets": {
     "Blue": {

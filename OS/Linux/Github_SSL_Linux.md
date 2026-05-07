@@ -6,10 +6,6 @@ description:
 ---
 ## 📋 **Table of Contents**
 
-- [INTRO](#intro) - Intro
-- [CONTENT](#CONTENT) - content  
-- [CONCLUSION](#Conlusion) - Conclusion
-
 ---
 
 ### **1. Générer une clé SSH**

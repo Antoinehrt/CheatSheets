@@ -7,9 +7,6 @@ description:
 ---
 ## 📋 **Table of Contents**
 
-- [INTRO](#intro) - Intro
-- [CONTENT](#CONTENT) - content  
-- [CONCLUSION](#Conlusion) - Conclusion
 
 ---
 

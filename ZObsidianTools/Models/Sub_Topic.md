@@ -1,13 +1,16 @@
 ---
-date: 2025-12-16
+date:
 tags:
+  - 
 description:
+Parent:
 ---
-## 📋 **Table of Contents**
+## 📋 Table of Contents
 
 ---
 
 
 
---- 
+---
+
 ## 📚 Ressources

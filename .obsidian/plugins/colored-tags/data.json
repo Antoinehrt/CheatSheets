@@ -50,7 +50,9 @@
     "CSS": 38,
     "SCSS": 39,
     "Stylesheet": 40,
-    "CSharp": 41
+    "CSharp": 41,
+    "Internationalisation": 42,
+    "excalidraw": 43
   },
   "_version": 3
 }

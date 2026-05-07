@@ -9,10 +9,6 @@ description:
 ---
 ## 📋 **Table of Contents**
 
-- [INTRO](#intro) - Intro
-- [CONTENT](#CONTENT) - content  
-- [CONCLUSION](#Conclusion) - Conclusion
-
 ---
 
 
@@ -28,4 +24,4 @@ When in a card you have two corner radius to apply, one inner and one outer radi
 ---
 ## 📚 Ressources
 
-- [Radius Function]([https://test.com](https://www.instagram.com/reel/DRuEeIPCH7M/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
+- [Radius Function](https://www.instagram.com/reel/DRuEeIPCH7M/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)

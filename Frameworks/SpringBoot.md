@@ -65,7 +65,7 @@ DATABASE_URL=<YourDbURL>
 DATABASE_USERNAME=<YourUser>
 DATABASE_PASSWORD=<YourPassword>
 ```
-**Don't forget to remove it from the [[GIT#.gitignore|.gitignore]]**
+**Don't forget to add it from the [[GIT#.gitignore|.gitignore]]**
 
 ### 3. Docker-compose with the database
 
