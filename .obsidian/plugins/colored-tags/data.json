@@ -52,7 +52,8 @@
     "Stylesheet": 40,
     "CSharp": 41,
     "Internationalisation": 42,
-    "excalidraw": 43
+    "excalidraw": 43,
+    "Windows": 44
   },
   "_version": 3
 }
