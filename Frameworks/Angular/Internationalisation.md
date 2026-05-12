@@ -10,7 +10,13 @@ Parent: "[[Angular]]"
 
 ---
 
+## Localise package
 
+To add the `@angular/localize` package, use the following command to update the `package.json` and TypeScript configuration files in your project.
+
+```bash
+ng add @angular/localize
+```
 
 ---
 

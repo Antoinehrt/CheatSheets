@@ -19,6 +19,12 @@ tags:
 
 ---
 
+## 0 Install angular 
+
+```bash
+npm install -g @angular/cli
+```
+
 ## 1. Creating the Project
 
 To create the project, use this command:
