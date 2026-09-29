@@ -53,7 +53,12 @@
     "CSharp": 41,
     "Internationalisation": 42,
     "excalidraw": 43,
-    "Windows": 44
+    "Windows": 44,
+    "i18n": 45,
+    "Localisation": 46,
+    "Versioning": 47,
+    "SemVer": 48,
+    "Release": 49
   },
   "_version": 3
 }

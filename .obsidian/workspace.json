@@ -4,24 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "7b54738631edfaac",
+        "id": "394263603883b5f5",
         "type": "tabs",
         "children": [
           {
-            "id": "4cd792607a8e68f8",
+            "id": "c4fcf24eb9057508",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frameworks/Angular/Angular.md",
+                "file": "Tools/Versioning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Angular"
+              "title": "Versioning"
+            }
+          },
+          {
+            "id": "ba0d63058e3e98b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/Versioning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Versioning"
+            }
+          },
+          {
+            "id": "70c7f56b14c6a12a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/Versioning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Versioning"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -42,7 +71,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -160,13 +191,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Frameworks/Angular/Angular.md",
+                "file": "Tools/Versioning.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Angular"
+              "title": "Outline"
             }
           }
         ],
@@ -178,6 +209,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "workspaces:Manage workspace layouts": false,
       "bases:Create new base": true,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": false,
@@ -186,20 +218,21 @@
       "command-palette:Open command palette": true,
       "daily-notes:Open today's daily note": true,
       "obsidian-excalidraw-plugin:New drawing": true,
-      "omnisearch:Omnisearch": false,
-      "workspaces:Manage workspace layouts": false
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "4cd792607a8e68f8",
+  "active": "8c2d3cbbfd6e884c",
   "lastOpenFiles": [
     "Frameworks/Angular/Internationalisation.md",
     "Frameworks/Angular/Angular.md",
-    "README.md",
-    "OS/Windows.md",
-    "DB/PostgreSQL.md",
+    "Tools/Versioning.md",
+    "Tools/GIT.md",
+    "Frameworks/Angular/Angular (1).md",
+    "Frameworks/Angular/Internationalisation (1).md",
     "Excalidraw/Drawing 2026-05-07 10.13.57.excalidraw.md",
     "Excalidraw",
-    "Tools/GIT.md",
+    "OS/Windows.md",
+    "DB/PostgreSQL.md",
     "Tools/Docker.md",
     "OS/Linux/Linux_Commands.md",
     "OS/Linux/Github_SSL_Linux.md",
@@ -213,6 +246,7 @@
     "ZObsidianTools/Models/Template_Cheat_Sheet.md",
     "TODO.md",
     "Obsidian_DB.base",
+    "README.md",
     "ZObsidianTools/Img/CSS-SCSS/Radius_Function.png",
     "Frameworks/Angular",
     "ZObsidianTools/Img/CSS-SCSS",
@@ -228,9 +262,6 @@
     "Untitled 1.base",
     "DB",
     "Framewroks/Drawing 2025-01-05 18.50.40.excalidraw.md",
-    "Frameworks",
-    "ZObsidianTools/Models/Template new tech cheat sheet.md",
-    "Tools/Shit.md",
-    "Welcome.md"
+    "Frameworks"
   ]
 }

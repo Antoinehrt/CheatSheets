@@ -16,6 +16,7 @@ tags:
   - [3.4 Run the project with the right environment](#34-run-the-project-with-the-right-environment)
 - [4. Architecture](#4-architecture)
 - [5. RxJS – Avoid nested subscribe](#5-rxjs--avoid-nested-subscribe)
+- [6. Upgrading Angular](#6-upgrading-angular)
 
 ---
 
@@ -351,3 +352,15 @@ this.userService.getUser(userId).subscribe({
 - Nested `subscribe()`
 - Business logic inside `subscribe`
 - Multiple subscriptions in components
+
+---
+
+## 6. Upgrading Angular
+
+To move a project to a newer major version, follow the **official Angular Update Guide**: [angular.dev/update-guide](https://angular.dev/update-guide). It generates a step-by-step checklist for your exact source and target versions (Node/TypeScript requirements, breaking changes, migrations). 
+
+Upgrade **one major version at a time** with `ng update`, and see the [`ng update` reference](https://angular.dev/cli/update).
+
+```bash
+ng update @angular/core @angular/cli
+```
