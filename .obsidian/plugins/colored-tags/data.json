@@ -58,7 +58,8 @@
     "Localisation": 46,
     "Versioning": 47,
     "SemVer": 48,
-    "Release": 49
+    "Release": 49,
+    "bookmark": 50
   },
   "_version": 3
 }

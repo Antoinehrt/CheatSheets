@@ -1,0 +1,44 @@
+filters:
+  and:
+    - file.inFolder("Bookmarks")
+    - file.ext == "md"
+properties:
+  note.url:
+    displayName: URL
+  note.category:
+    displayName: Catégorie
+  note.status:
+    displayName: Statut
+views:
+  - type: table
+    name: Par catégorie
+    groupBy:
+      property: note.category
+      direction: ASC
+    order:
+      - file.name
+      - note.url
+      - note.tags
+      - note.status
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: À lire
+    filters:
+      and:
+        - note.status == "to-read"
+    order:
+      - file.name
+      - note.category
+      - note.url
+      - note.date
+  - type: table
+    name: Récents
+    order:
+      - file.name
+      - note.category
+      - note.date
+    sort:
+      - property: note.date
+        direction: DESC
