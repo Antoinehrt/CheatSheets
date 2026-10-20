@@ -40,9 +40,9 @@ If you want to add material to the project, use this command:
 ng add @angular/material
 ```
 
-## 2. Creation of the [[GIT]] repository
+## 2. Creation of the [[Git]] repository
 
-Don't forget to create or adapt if it's already created the [[GIT#.gitignore|.gitignore]]
+Don't forget to create or adapt if it's already created the [[Git#.gitignore|.gitignore]]
 
 ## 3. Project configuration
 

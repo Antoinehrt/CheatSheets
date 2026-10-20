@@ -9,16 +9,16 @@ description: Spring Boot is an open-source Java framework used for programmi
 ---
 ## 📋 **Table of Contents**
 
-- [[SpringBoot#Setup a project|Setup a project]] 
-	- [[SpringBoot#1. DockerFile For Spring Boot|1. DockerFile]]
-	- [[SpringBoot#2. Environment File|2. Environment File]]
-	- [[SpringBoot#3. Docker-compose with the database|3. Docker Compose Configuration]]
-	- [[SpringBoot#4. Setup Application Properties|4. Application Properties]]
-- [[SpringBoot#Creation of a basic CRUD|Basic CRUD]]
-	- [[SpringBoot#1. Entity|1. Entity]]
-	- [[SpringBoot#2. Repository|2. Repository]]
-	- [[SpringBoot#3. Controller|3. Controller]]
-- [[SpringBoot#Problems|Problems]]
+- [[Spring_Boot#Setup a project|Setup a project]] 
+	- [[Spring_Boot#1. DockerFile For Spring Boot|1. DockerFile]]
+	- [[Spring_Boot#2. Environment File|2. Environment File]]
+	- [[Spring_Boot#3. Docker-compose with the database|3. Docker Compose Configuration]]
+	- [[Spring_Boot#4. Setup Application Properties|4. Application Properties]]
+- [[Spring_Boot#Creation of a basic CRUD|Basic CRUD]]
+	- [[Spring_Boot#1. Entity|1. Entity]]
+	- [[Spring_Boot#2. Repository|2. Repository]]
+	- [[Spring_Boot#3. Controller|3. Controller]]
+- [[Spring_Boot#Problems|Problems]]
 
 ---
 ## Setup a project
@@ -65,7 +65,7 @@ DATABASE_URL=<YourDbURL>
 DATABASE_USERNAME=<YourUser>
 DATABASE_PASSWORD=<YourPassword>
 ```
-**Don't forget to add it from the [[GIT#.gitignore|.gitignore]]**
+**Don't forget to add it from the [[Git#.gitignore|.gitignore]]**
 
 ### 3. Docker-compose with the database
 

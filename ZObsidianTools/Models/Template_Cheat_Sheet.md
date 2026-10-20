@@ -1,5 +1,5 @@
 ---
-date: 2025-12-16
+date: {{date}}
 tags:
 description:
 ---

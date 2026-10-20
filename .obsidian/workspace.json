@@ -4,20 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7b54738631edfaac",
+        "id": "d6fe20722c040c2a",
         "type": "tabs",
         "children": [
           {
-            "id": "4cd792607a8e68f8",
+            "id": "91a581138955d62e",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Bookmarks/Bookmarks.base",
-                "viewName": "Par catégorie"
+                "file": "Tools/Markdown-Obsidian.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Bookmarks"
+              "icon": "lucide-file",
+              "title": "Markdown-Obsidian"
             }
           }
         ]
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bookmarks/Bookmarks.base",
+                "file": "Tools/Markdown-Obsidian.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -191,47 +192,47 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "76fa9f6c69243ef8",
+  "active": "8c2d3cbbfd6e884c",
   "lastOpenFiles": [
+    "Tools/Markdown-Obsidian.md",
+    "Bookmarks/Bookmarks.base",
+    "DB/PostgreSQL.md",
+    "Frameworks/Spring_Boot.md",
+    "Frameworks/CSharp_ASP_NET.md",
+    "Frameworks/Angular/Internationalisation.md",
+    "Frameworks/Angular/Angular.md",
+    "Languages/Python.md",
+    "Languages/CSS_SCSS.md",
+    "OS/Android.md",
+    "OS/Windows.md",
+    "OS/Linux/Github_SSL_Linux.md",
+    "OS/Linux/Create_a_Linux_Virtual_Box.md",
+    "Practices/Do_and_Dont.md",
+    "Tools/Docker.md",
+    "Tools/Git.md",
+    "Tools/GitHub_SSH.md",
+    "Tools/Versioning.md",
+    "README.md",
+    "Obsidian_DB.base",
+    "Web/UI_Design.md",
+    "Web/SEO.md",
+    "Web/Code_Snippets.md",
+    "Practices/Dev_Habits.md",
+    "Frameworks/CSharp ASP.NET.md",
     "Bookmarks/Links",
     "ZObsidianTools/Models/Bookmark.md",
     "Tools/GIT.md",
-    "Bookmarks/Bookmarks.base",
     "Bookmarks",
     "New folder",
-    "Tools/Versioning.md",
-    "Frameworks/Angular/Angular.md",
-    "Frameworks/Angular/Internationalisation.md",
-    "README.md",
-    "OS/Windows.md",
-    "DB/PostgreSQL.md",
     "Excalidraw/Drawing 2026-05-07 10.13.57.excalidraw.md",
     "Excalidraw",
-    "Tools/Docker.md",
-    "OS/Linux/Linux_Commands.md",
-    "OS/Linux/Github_SSL_Linux.md",
-    "OS/Linux/Create_a_Linux_Virtual_Box.md",
-    "Languages/Python.md",
-    "Languages/CSS - SCSS.md",
-    "Frameworks/SpringBoot.md",
-    "Frameworks/CSharp ASP.NET.md",
-    "ZObsidianTools/Models/Sub_Topic.md",
-    "Invalid date.md",
-    "ZObsidianTools/Models/Template_Cheat_Sheet.md",
-    "TODO.md",
-    "Obsidian_DB.base",
     "ZObsidianTools/Img/CSS-SCSS/Radius_Function.png",
     "Frameworks/Angular",
     "ZObsidianTools/Img/CSS-SCSS",
     "ZObsidianTools/Img/New folder",
-    "Frameworks/anglar.md",
     "ZObsidianTools/Img/RJXS/operators.png",
     "ZObsidianTools/Img/RJXS/Unconfirmed 431763.crdownload",
-    "ZObsidianTools/Img/RJXS",
-    "Home Page.md",
     "ZObsidianTools/Img/Linux/Virtual_Box/2024-12-03_screenshot_guest_addtion.png",
-    "2025-11-24.md",
-    "Untitled.canvas",
-    "Framewroks/Drawing 2025-01-05 18.50.40.excalidraw.md"
+    "Untitled.canvas"
   ]
 }

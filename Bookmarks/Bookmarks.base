@@ -13,13 +13,13 @@ views:
   - type: table
     name: Par catégorie
     groupBy:
-      property: note.category
+      property: category
       direction: ASC
     order:
       - file.name
-      - note.url
-      - note.tags
-      - note.status
+      - url
+      - tags
+      - description
     sort:
       - property: file.name
         direction: ASC
@@ -30,15 +30,15 @@ views:
         - note.status == "to-read"
     order:
       - file.name
-      - note.category
-      - note.url
-      - note.date
+      - category
+      - url
+      - date
   - type: table
     name: Récents
     order:
       - file.name
-      - note.category
-      - note.date
+      - category
+      - date
     sort:
-      - property: note.date
+      - property: date
         direction: DESC

@@ -19,6 +19,10 @@ description:
 rm -rf /<name_directory>
 ```
 
+## New PC configuration
+
+- WinGet DSC (describe the apps and settings of a new PC in a configuration file)
+
 ---
 ## 📚 Ressources
 

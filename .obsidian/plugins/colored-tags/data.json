@@ -59,7 +59,27 @@
     "Versioning": 47,
     "SemVer": 48,
     "Release": 49,
-    "bookmark": 50
+    "bookmark": 50,
+    "SSH": 51,
+    "UI": 52,
+    "UX": 53,
+    "Design": 54,
+    "Colours": 55,
+    "SEO": 56,
+    "Google": 57,
+    "Website": 58,
+    "Habits": 59,
+    "Productivity": 60,
+    "Rules": 61,
+    "100DaysOfCode": 62,
+    "JavaScript": 63,
+    "Snippets": 64,
+    "Practices": 65,
+    "Security": 66,
+    "Naming": 67,
+    "Obsidian": 68,
+    "MarkDown": 69,
+    "Syntax": 70
   },
   "_version": 3
 }

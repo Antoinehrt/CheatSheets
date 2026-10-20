@@ -13,13 +13,13 @@
 
 ### 🏗️ **Frameworks**
 
-- **[Angular](Angular.md)** - Component development, routing, and services
-- **[SpringBoot](Frameworks/SpringBoot.md)** - Java enterprise application development
+- **[Angular](Frameworks/Angular/Angular.md)** - Component development, routing, and services
+- **[SpringBoot](Frameworks/Spring_Boot.md)** - Java enterprise application development
 
 ### 💻 **Programming Languages**
 
 - **[Python](Languages/Python.md)** - Syntax, libraries, and best practices
-- **[C#](CSharp%20ASP.NET.md)** - .NET development essentials
+- **[C#](Frameworks/CSharp_ASP_NET.md)** - .NET development essentials
 
 ### 🖥️ **Operating Systems**
 
@@ -28,7 +28,7 @@
 
 ### 🛠️ **Development Tools**
 
-- **[Git](Tools/GIT.md)** - Version control workflows and commands
+- **[Git](Tools/Git.md)** - Version control workflows and commands
 - **[Docker](Tools/Docker.md)** - Containerisation and deployment
 
 ---
@@ -37,9 +37,9 @@
 
 | Technology                            | Use Case                | Status              |
 | ------------------------------------- | ----------------------- | ------------------- |
-| [Git](Tools/GIT.md)                   | Daily version control   | ✅ Complete          |
+| [Git](Tools/Git.md)                   | Daily version control   | ✅ Complete          |
 | [Docker](Tools/Docker.md)             | Container management    | 📝 Work in progress |
-| [Linux_Commands](Linux_Commands.md) | Scripting & development | 📝 Work in progress |
+| [Linux_Commands](OS/Linux/Linux_Commands.md) | Scripting & development | 📝 Work in progress |
 
 
 ---

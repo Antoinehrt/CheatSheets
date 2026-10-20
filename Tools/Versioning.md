@@ -20,7 +20,7 @@ description: How to number versions (Semantic Versioning, CalVer, Conventional C
 
 ## 1. Why version?
 
-A version number is a **label on a frozen state of the code**. It tells users and other developers *what kind of change* to expect between two releases, and lets you go back to a known state (see [[GIT]]).
+A version number is a **label on a frozen state of the code**. It tells users and other developers *what kind of change* to expect between two releases, and lets you go back to a known state (see [[Git]]).
 
 ---
 

@@ -208,7 +208,7 @@ perf stat -r 5 curl -s localhost:8099/health >/dev/null
 
 - Requires `perf` permissions (often `sudo` or `perf_event_paranoid` adjustment).
 
-## [[GIT]]
+## [[Git]]
 
 24. Search in repo
 

@@ -21,6 +21,14 @@ When in a card you have two corner radius to apply, one inner and one outer radi
 ![[Radius_Function.png]]
 
 
+### Breakpoints
+
+Breakpoints (px):
+- 490
+- 768
+- 1040
+- 1440
+
 ---
 ## 📚 Ressources
 
